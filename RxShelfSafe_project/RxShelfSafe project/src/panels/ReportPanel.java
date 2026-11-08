@@ -236,7 +236,7 @@ public class ReportPanel extends JPanel implements ActionListener, TableModelLis
             setHorizontalAlignment(CENTER);
             setForeground(Color.BLACK);
             if (isSelected) {
-                setBackground(selectColor);
+                setBackground(new Color(214,214,214));
             } else {
                 setBackground(Color.WHITE);
             }
@@ -311,7 +311,7 @@ public class ReportPanel extends JPanel implements ActionListener, TableModelLis
                 boolean isSelected, boolean hasFocus, int row, int column) {
             setSelected(value != null && (Boolean) value);
             if (isSelected) {
-                setBackground(selectColor);
+                setBackground(Color.WHITE);
             } else {
                 setBackground(pageGray);
             }

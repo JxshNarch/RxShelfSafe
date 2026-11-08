@@ -33,12 +33,50 @@ import javax.swing.JTextField;
 import javax.swing.UIManager;
 
 
+
+
+
+
+  
+      
+        
+   
+     
+       
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class BatchPanel extends JPanel implements ActionListener {
 
     private static final int PAGE_SIZE = 20;    
     
      private String statusFilter = "All";          // the status that is chosen now
     
+
+
+
+
+
+
+
+
+
     // cards
 
     private DataStore data;
@@ -66,16 +104,25 @@ public class BatchPanel extends JPanel implements ActionListener {
         this.data = data;
         this.main = main;
         setLayout(new BorderLayout(10, 10));
+
+        setBackground(new Color(230, 230, 230));
+
         setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
 
         //top: title, search and sort
         JLabel title = new JLabel("MANAGE BATCHES");
         title.setFont(new Font("Arial", Font.BOLD, 28));
+title.setOpaque(true);  
+         title.setBackground(new Color(230, 230, 230));
 
         JLabel subtitle = new JLabel("linked list from HEAD to the last node");
         subtitle.setFont(new Font("Arial", Font.BOLD, 16));
+subtitle.setOpaque(true);  
+          subtitle.setBackground(new Color(230, 230, 230));
 
-        
+
+
+
 
         searchField = new JTextField();
         
@@ -162,6 +209,8 @@ public class BatchPanel extends JPanel implements ActionListener {
         UIManager.put("ComboBox.background", Color.WHITE);                         //list background
 
         JPanel tools = new JPanel(new FlowLayout(FlowLayout.LEFT));
+
+         tools.setBackground(new Color(230, 230, 230));
         tools.add(searchField);
         tools.add(helpButton);
         tools.add(searchButton);
@@ -171,6 +220,7 @@ public class BatchPanel extends JPanel implements ActionListener {
 
 
         JPanel toolr = new JPanel(new FlowLayout(FlowLayout.RIGHT));
+         toolr.setBackground(new Color(230, 230, 230));
         
         toolr.add(sortBox);
         toolr.add(sortButton);
@@ -203,6 +253,7 @@ public class BatchPanel extends JPanel implements ActionListener {
         cardList.setBorder(BorderFactory.createEmptyBorder(15, 20, 15, 20));
 
         scroll = new JScrollPane(cardList);
+        scroll.getViewport().setBackground(new Color(245, 245, 245));
         scroll.setBorder(BorderFactory.createLineBorder(Color.BLACK, 2));
         scroll.getVerticalScrollBar().setUnitIncrement(20);        // faster mouse wheel
         add(scroll, BorderLayout.CENTER);
@@ -210,6 +261,9 @@ public class BatchPanel extends JPanel implements ActionListener {
         //bottom  button
         infoLabel = new JLabel(" ");
         JPanel bottom = new JPanel(new FlowLayout(FlowLayout.LEFT));
+
+        bottom.setBackground(new Color(230, 230, 230)); //botton area only
+
         if (main.isAdmin()) {
             addButton = new JButton("+ Add");
             editButton = new JButton("Edit");
@@ -244,7 +298,8 @@ editButton.setPreferredSize(new Dimension(100, 30));
         }
 
         JPanel prev = new JPanel(new FlowLayout(FlowLayout.RIGHT));
-
+ prev.setBackground(new Color(230, 230, 230));
+ prev.setOpaque(true); 
 
         prevButton = new JButton("<");
         nextButton = new JButton(">");
@@ -254,12 +309,19 @@ editButton.setPreferredSize(new Dimension(100, 30));
         
 
                 JPanel bottomRight = new JPanel(new FlowLayout(FlowLayout.RIGHT));
+
+                bottomRight.setBackground(new Color(230, 230, 230));
+ bottomRight.setOpaque(true); 
         bottomRight.add(infoLabel);
         bottomRight.add(prevButton);
         bottomRight.add(pageLabel);
         bottomRight.add(nextButton);
 
         JPanel bottomRow = new JPanel(new BorderLayout());
+
+                bottomRow.setBackground(new Color(230, 230, 230));
+ bottomRow.setOpaque(true); 
+
         bottomRow.add(bottom, BorderLayout.WEST);
         bottomRow.add(bottomRight, BorderLayout.EAST);
         add(bottomRow, BorderLayout.SOUTH);

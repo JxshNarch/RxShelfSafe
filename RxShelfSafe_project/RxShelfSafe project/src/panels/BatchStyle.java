@@ -30,7 +30,7 @@ public class BatchStyle extends JPanel implements MouseListener, ActionListener 
         this.panel = panel;
 
         setLayout(new BorderLayout(15, 0));
-        setBackground(Color.WHITE);
+        setBackground(new Color(230, 230, 230));
         setPreferredSize(new Dimension(100, 100));
         setMaximumSize(new Dimension(Integer.MAX_VALUE, 100)); 
         setSelected(false);
@@ -110,7 +110,7 @@ public class BatchStyle extends JPanel implements MouseListener, ActionListener 
     public void setSelected(boolean selected) {
         if (selected) {
             setBorder(BorderFactory.createLineBorder(Color.BLACK, 3));
-            setBackground(new Color(232, 242, 255));
+            setBackground(new Color(214, 214, 214));
         } else {
             setBorder(BorderFactory.createLineBorder(new Color(150, 150, 150), 1));
             setBackground(Color.WHITE);

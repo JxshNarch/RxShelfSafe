@@ -257,6 +257,7 @@ menu.add(userLabel);
         button.setFocusPainted(false);                                  
         button.setBorder(BorderFactory.createEmptyBorder(8, 20, 8, 8));    
 
+        
         // the icon: loaded with FileFinder and made 20 x 20 (change the 20s to change the size)
         ImageIcon icon = new ImageIcon(FileFinder.find(iconFile));
         button.setIcon(new ImageIcon(icon.getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));

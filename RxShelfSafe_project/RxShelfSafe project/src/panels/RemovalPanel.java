@@ -55,6 +55,8 @@ public class RemovalPanel extends JPanel implements ActionListener, MouseListene
         top.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
         add(top, BorderLayout.NORTH);
 
+        top.setBackground( new Color(230, 230,230));
+
         
 
 
@@ -63,7 +65,7 @@ public class RemovalPanel extends JPanel implements ActionListener, MouseListene
 
 
         JPanel header = new JPanel(new BorderLayout());
-        header.setBackground(new Color(245, 245, 245));
+        header.setBackground(new Color(230, 230,230));
         header.setBorder(BorderFactory.createEmptyBorder(12, 15, 4, 15));
 
         JLabel spacer = new JLabel(" ");
@@ -80,7 +82,7 @@ public class RemovalPanel extends JPanel implements ActionListener, MouseListene
 
         rowList = new JPanel();
         rowList.setLayout(new BoxLayout(rowList, BoxLayout.Y_AXIS));
-        rowList.setBackground(new Color(245, 245, 245));
+        rowList.setBackground(new Color(230, 230,230));
         rowList.setBorder(BorderFactory.createEmptyBorder(5, 15, 15, 15));
 
         scroll = new JScrollPane(rowList);
@@ -105,6 +107,7 @@ public class RemovalPanel extends JPanel implements ActionListener, MouseListene
 
 
         JPanel bottom = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        bottom.setBackground(new Color(230, 230,230));
         if (main.isAdmin()) {
             approveButton = new JButton("Approve");
             rejectButton = new JButton("Reject");
@@ -152,6 +155,7 @@ public class RemovalPanel extends JPanel implements ActionListener, MouseListene
 
     // 
     private JPanel makeRow(int number, String id) {
+        
         Batch b = data.getBatches().find(id);
         String medicine = "(deleted)";
         String status = "";
@@ -192,6 +196,7 @@ public class RemovalPanel extends JPanel implements ActionListener, MouseListene
                  bar.add(statusCell);
         bar.add(byLabel);
         bars.add(bar);
+        bar.setBorder(BorderFactory.createLineBorder(Color.BLACK, 1));
 
         JPanel row = new JPanel(new BorderLayout());
         row.setOpaque(false);
@@ -200,6 +205,7 @@ public class RemovalPanel extends JPanel implements ActionListener, MouseListene
      row.add(numberLabel, BorderLayout.WEST);
         row.add(bar, BorderLayout.CENTER);
         row.addMouseListener(this);
+        
         return row;
     }
 
@@ -207,10 +213,10 @@ public class RemovalPanel extends JPanel implements ActionListener, MouseListene
 private void showSelection() {
         for (int i = 0; i < bars.size(); i++) {
             if (ids.get(i).equals(selectedId)) {
-                bars.get(i).setBackground(new Color(200, 225, 250));
+                bars.get(i).setBackground(new Color(214, 214, 214));
                 bars.get(i).setBorder(BorderFactory.createLineBorder(Color.BLACK, 2));
             } else {
-                bars.get(i).setBackground(new Color(217, 217, 217));
+                bars.get(i).setBackground(new Color(255, 255, 255));
                 bars.get(i).setBorder(BorderFactory.createEmptyBorder());
             }
         }
