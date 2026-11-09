@@ -402,8 +402,39 @@ if (!statusFilter.equals("All")) {
 
     // the "Request removal" button of a card was clicked staff
     public void requestRemoval(Batch b) {
+
+
+
+
+
+        //experimental
+int answer = JOptionPane.showConfirmDialog(this,
+                    "u sure man?",
+                    "r u for real man?", JOptionPane.YES_NO_OPTION);
+            if (answer != JOptionPane.YES_OPTION) {
+                return;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
         if (data.getRequests().contains(b.getBatchId())) {
             JOptionPane.showMessageDialog(this, "A removal request for this batch was already sent.");
+
+
+
+
+
+
         } else {
             data.getRequests().add(b.getBatchId());
             main.addLog("REQUEST: Staff requested removal of batch " + b.getBatchId() + ", waiting for Admin.");

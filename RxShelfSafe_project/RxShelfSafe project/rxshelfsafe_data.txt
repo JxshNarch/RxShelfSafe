@@ -16,104 +16,102 @@ CAT	Antifungals
 CAT	Dermatologicals
 CAT	Oral Rehydration
 CAT	Anti-inflammatory
-BATCH	2	Paracetamol	100	2028-09-21	Antibiotics	10mg	1
-BATCH	3	Omiprazole	100	2026-04-21	Pain Relievers	10	0
-BATCH	4	A	100	2026-12-21	Pain Relievers	12	1
-BATCH	5	B	100	2026-04-21	Pain Relievers	15	0
+BATCH	2	B	10	2026-12-21	Pain Relievers	10mg	0
+BATCH	5	B	100	2026-11-25	Pain Relievers	15	0
 BATCH	67	Tambal sa ilok	10	2026-02-21	Pain Relievers	10	0
 BATCH	6	Paracetamol	228	2023-02-21	Pain Relievers	500mg	0
-BATCH	7	Ibuprofen	37	2028-12-20	Pain Relievers	200mg	1
+BATCH	7	Ibuprofen	37	2028-12-20	Pain Relievers	200mg	0
 BATCH	8	Mefenamic Acid	214	2025-05-14	Pain Relievers	500mg	0
-BATCH	9	Amoxicillin	156	2027-08-09	Antibiotics	500mg	1
-BATCH	10	Azithromycin	216	2030-06-21	Antibiotics	500mg	1
-BATCH	11	Ciprofloxacin	52	2027-01-19	Antibiotics	500mg	1
-BATCH	12	Omeprazole	52	2026-12-29	Antacids	20mg	1
-BATCH	13	Aluminum Hydroxide	188	2029-11-21	Antacids	tablet	1
-BATCH	14	Cetirizine	141	2028-04-05	Antihistamines	10mg	1
+BATCH	9	Amoxicillin	156	2027-08-09	Antibiotics	500mg	0
+BATCH	10	Azithromycin	216	2030-06-21	Antibiotics	500mg	0
+BATCH	11	Ciprofloxacin	52	2027-01-19	Antibiotics	500mg	0
+BATCH	12	Omeprazole	52	2026-12-29	Antacids	20mg	0
+BATCH	13	Aluminum Hydroxide	188	2029-11-21	Antacids	tablet	0
+BATCH	14	Cetirizine	141	2028-04-05	Antihistamines	10mg	0
 BATCH	15	Loratadine	160	2023-03-07	Antihistamines	10mg	0
 BATCH	16	Diphenhydramine	62	2023-08-17	Antihistamines	25mg	0
-BATCH	17	Vitamin C	87	2023-07-11	Vitamins & Supplements	500mg	0
-BATCH	18	Multivitamins	155	2027-02-03	Vitamins & Supplements	tablet	1
-BATCH	19	Ferrous Sulfate	243	2027-10-16	Vitamins & Supplements	325mg	1
-BATCH	20	Metformin	175	2027-03-28	Antidiabetics	500mg	1
-BATCH	21	Gliclazide	128	2027-02-08	Antidiabetics	80mg	1
-BATCH	22	Amlodipine	74	2027-04-24	Antihypertensives	5mg	1
-BATCH	23	Losartan	158	2027-02-14	Antihypertensives	50mg	1
+BATCH	18	Multivitamins	155	2027-02-03	Vitamins & Supplements	tablet	0
+BATCH	19	Ferrous Sulfate	243	2027-10-16	Vitamins & Supplements	325mg	0
+BATCH	20	Metformin	175	2027-03-28	Antidiabetics	500mg	0
+BATCH	21	Gliclazide	128	2027-02-08	Antidiabetics	80mg	0
+BATCH	22	Amlodipine	74	2027-04-24	Antihypertensives	5mg	0
+BATCH	23	Losartan	158	2027-02-14	Antihypertensives	50mg	0
 BATCH	24	Salbutamol	213	2024-04-02	Cough & Cold	2mg	0
-BATCH	25	Carbocisteine	206	2028-11-04	Cough & Cold	500mg	1
-BATCH	26	Dextromethorphan	196	2030-11-15	Cough & Cold	15mg	1
-BATCH	27	Clotrimazole	71	2029-05-04	Antifungals	1%	1
-BATCH	28	Fluconazole	202	2027-11-30	Antifungals	150mg	1
-BATCH	29	Hydrocortisone Cream	99	2027-01-19	Dermatologicals	1%	1
-BATCH	30	Oral Rehydration Salts	122	2027-02-24	Oral Rehydration	sachet	1
+BATCH	25	Carbocisteine	206	2028-11-04	Cough & Cold	500mg	0
+BATCH	26	Dextromethorphan	196	2030-11-15	Cough & Cold	15mg	0
+BATCH	27	Clotrimazole	71	2029-05-04	Antifungals	1%	0
+BATCH	28	Fluconazole	202	2027-11-30	Antifungals	150mg	0
+BATCH	29	Hydrocortisone Cream	99	2027-01-19	Dermatologicals	1%	0
+BATCH	30	Oral Rehydration Salts	122	2027-02-24	Oral Rehydration	sachet	0
 BATCH	31	Naproxen	191	2026-01-21	Anti-inflammatory	250mg	0
 BATCH	32	Paracetamol (Batch 2)	186	2023-02-24	Pain Relievers	500mg	0
-BATCH	33	Ibuprofen (Batch 2)	115	2026-12-18	Pain Relievers	200mg	1
+BATCH	33	Ibuprofen (Batch 2)	115	2026-12-18	Pain Relievers	200mg	0
 BATCH	34	Mefenamic Acid (Batch 2)	132	2024-07-17	Pain Relievers	500mg	0
-BATCH	35	Amoxicillin (Batch 2)	250	2029-12-03	Antibiotics	500mg	1
-BATCH	36	Azithromycin (Batch 2)	152	2028-11-10	Antibiotics	500mg	1
-BATCH	37	Ciprofloxacin (Batch 2)	135	2028-08-26	Antibiotics	500mg	1
-BATCH	38	Omeprazole (Batch 2)	50	2026-12-19	Antacids	20mg	1
-BATCH	39	Aluminum Hydroxide (Batch 2)	83	2028-06-04	Antacids	tablet	1
-BATCH	40	Cetirizine (Batch 2)	77	2027-08-04	Antihistamines	10mg	1
-BATCH	41	Loratadine (Batch 2)	36	2029-06-21	Antihistamines	10mg	1
-BATCH	42	Diphenhydramine (Batch 2)	106	2027-09-27	Antihistamines	25mg	1
-BATCH	43	Vitamin C (Batch 2)	25	2030-11-28	Vitamins & Supplements	500mg	1
-BATCH	44	Multivitamins (Batch 2)	170	2030-10-06	Vitamins & Supplements	tablet	1
-BATCH	45	Ferrous Sulfate (Batch 2)	161	2027-02-05	Vitamins & Supplements	325mg	1
+BATCH	35	Amoxicillin (Batch 2)	250	2029-12-03	Antibiotics	500mg	0
+BATCH	36	Azithromycin (Batch 2)	152	2028-11-10	Antibiotics	500mg	0
+BATCH	37	Ciprofloxacin (Batch 2)	135	2028-08-26	Antibiotics	500mg	0
+BATCH	38	Omeprazole (Batch 2)	50	2026-12-19	Antacids	20mg	0
+BATCH	39	Aluminum Hydroxide (Batch 2)	83	2028-06-04	Antacids	tablet	0
+BATCH	40	Cetirizine (Batch 2)	77	2027-08-04	Antihistamines	10mg	0
+BATCH	41	Loratadine (Batch 2)	36	2029-06-21	Antihistamines	10mg	0
+BATCH	42	Diphenhydramine (Batch 2)	106	2027-09-27	Antihistamines	25mg	0
+BATCH	43	Vitamin C (Batch 2)	25	2030-11-28	Vitamins & Supplements	500mg	0
+BATCH	44	Multivitamins (Batch 2)	170	2030-10-06	Vitamins & Supplements	tablet	0
+BATCH	45	Ferrous Sulfate (Batch 2)	161	2027-02-05	Vitamins & Supplements	325mg	0
 BATCH	46	Metformin (Batch 2)	78	2026-02-23	Antidiabetics	500mg	0
-BATCH	47	Gliclazide (Batch 2)	170	2026-12-02	Antidiabetics	80mg	1
-BATCH	48	Amlodipine (Batch 2)	76	2028-11-27	Antihypertensives	5mg	1
-BATCH	49	Losartan (Batch 2)	21	2028-07-30	Antihypertensives	50mg	1
-BATCH	50	Salbutamol (Batch 2)	38	2028-10-30	Cough & Cold	2mg	1
+BATCH	47	Gliclazide (Batch 2)	170	2026-12-02	Antidiabetics	80mg	0
+BATCH	48	Amlodipine (Batch 2)	76	2028-11-27	Antihypertensives	5mg	0
+BATCH	49	Losartan (Batch 2)	21	2028-07-30	Antihypertensives	50mg	0
+BATCH	50	Salbutamol (Batch 2)	38	2028-10-30	Cough & Cold	2mg	0
 BATCH	51	Carbocisteine (Batch 2)	201	2023-07-29	Cough & Cold	500mg	0
-BATCH	52	Dextromethorphan (Batch 2)	181	2028-07-10	Cough & Cold	15mg	1
-BATCH	53	Clotrimazole (Batch 2)	35	2030-08-02	Antifungals	1%	1
+BATCH	52	Dextromethorphan (Batch 2)	181	2028-07-10	Cough & Cold	15mg	0
+BATCH	53	Clotrimazole (Batch 2)	35	2030-08-02	Antifungals	1%	0
 BATCH	54	Fluconazole (Batch 2)	78	2026-08-02	Antifungals	150mg	0
-BATCH	55	Hydrocortisone Cream (Batch 2)	37	2027-02-04	Dermatologicals	1%	1
+BATCH	55	Hydrocortisone Cream (Batch 2)	37	2027-02-04	Dermatologicals	1%	0
 BATCH	56	Oral Rehydration Salts (Batch 2)	28	2024-03-23	Oral Rehydration	sachet	0
-BATCH	57	Naproxen (Batch 2)	240	2029-06-04	Anti-inflammatory	250mg	1
-BATCH	58	Paracetamol (Batch 3)	104	2027-04-08	Pain Relievers	500mg	1
-BATCH	59	Ibuprofen (Batch 3)	38	2030-10-25	Pain Relievers	200mg	1
-BATCH	60	Mefenamic Acid (Batch 3)	151	2028-12-28	Pain Relievers	500mg	1
-BATCH	61	Amoxicillin (Batch 3)	80	2027-05-07	Antibiotics	500mg	1
-BATCH	62	Azithromycin (Batch 3)	91	2028-08-19	Antibiotics	500mg	1
-BATCH	63	Ciprofloxacin (Batch 3)	191	2027-01-03	Antibiotics	500mg	1
-BATCH	64	Omeprazole (Batch 3)	144	2029-12-09	Antacids	20mg	1
-BATCH	65	Aluminum Hydroxide (Batch 3)	74	2026-12-03	Antacids	tablet	1
-BATCH	66	Cetirizine (Batch 3)	158	2028-04-06	Antihistamines	10mg	1
+BATCH	57	Naproxen (Batch 2)	240	2029-06-04	Anti-inflammatory	250mg	0
+BATCH	58	Paracetamol (Batch 3)	104	2027-04-08	Pain Relievers	500mg	0
+BATCH	59	Ibuprofen (Batch 3)	38	2030-10-25	Pain Relievers	200mg	0
+BATCH	60	Mefenamic Acid (Batch 3)	151	2028-12-28	Pain Relievers	500mg	0
+BATCH	61	Amoxicillin (Batch 3)	80	2027-05-07	Antibiotics	500mg	0
+BATCH	62	Azithromycin (Batch 3)	91	2028-08-19	Antibiotics	500mg	0
+BATCH	63	Ciprofloxacin (Batch 3)	191	2027-01-03	Antibiotics	500mg	0
+BATCH	64	Omeprazole (Batch 3)	144	2029-12-09	Antacids	20mg	0
+BATCH	65	Aluminum Hydroxide (Batch 3)	74	2026-12-03	Antacids	tablet	0
+BATCH	66	Cetirizine (Batch 3)	158	2028-04-06	Antihistamines	10mg	0
 BATCH	68	Loratadine (Batch 3)	53	2023-06-28	Antihistamines	10mg	0
-BATCH	69	Diphenhydramine (Batch 3)	205	2029-06-23	Antihistamines	25mg	1
+BATCH	69	Diphenhydramine (Batch 3)	205	2029-06-23	Antihistamines	25mg	0
 BATCH	70	Vitamin C (Batch 3)	245	2026-05-17	Vitamins & Supplements	500mg	0
 BATCH	71	Multivitamins (Batch 3)	166	2023-03-03	Vitamins & Supplements	tablet	0
 BATCH	72	Ferrous Sulfate (Batch 3)	167	2023-10-13	Vitamins & Supplements	325mg	0
 BATCH	73	Metformin (Batch 3)	141	2026-04-24	Antidiabetics	500mg	0
-BATCH	74	Gliclazide (Batch 3)	82	2028-09-20	Antidiabetics	80mg	1
-BATCH	75	Amlodipine (Batch 3)	220	2027-10-18	Antihypertensives	5mg	1
-BATCH	76	Losartan (Batch 3)	141	2030-12-25	Antihypertensives	50mg	1
-BATCH	77	Salbutamol (Batch 3)	226	2027-03-03	Cough & Cold	2mg	1
-BATCH	78	Carbocisteine (Batch 3)	124	2030-09-25	Cough & Cold	500mg	1
-BATCH	79	Dextromethorphan (Batch 3)	68	2029-03-02	Cough & Cold	15mg	1
-BATCH	80	Clotrimazole (Batch 3)	44	2030-06-11	Antifungals	1%	1
-BATCH	81	Fluconazole (Batch 3)	44	2027-10-01	Antifungals	150mg	1
-BATCH	82	Hydrocortisone Cream (Batch 3)	188	2029-06-24	Dermatologicals	1%	1
-BATCH	83	Oral Rehydration Salts (Batch 3)	130	2030-11-29	Oral Rehydration	sachet	1
-BATCH	84	Naproxen (Batch 3)	110	2026-11-10	Anti-inflammatory	250mg	1
+BATCH	74	Gliclazide (Batch 3)	82	2028-09-20	Antidiabetics	80mg	0
+BATCH	75	Amlodipine (Batch 3)	220	2027-10-18	Antihypertensives	5mg	0
+BATCH	76	Losartan (Batch 3)	141	2030-12-25	Antihypertensives	50mg	0
+BATCH	77	Salbutamol (Batch 3)	226	2027-03-03	Cough & Cold	2mg	0
+BATCH	78	Carbocisteine (Batch 3)	124	2030-09-25	Cough & Cold	500mg	0
+BATCH	79	Dextromethorphan (Batch 3)	68	2029-03-02	Cough & Cold	15mg	0
+BATCH	80	Clotrimazole (Batch 3)	44	2030-06-11	Antifungals	1%	0
+BATCH	81	Fluconazole (Batch 3)	44	2027-10-01	Antifungals	150mg	0
+BATCH	82	Hydrocortisone Cream (Batch 3)	188	2029-06-24	Dermatologicals	1%	0
+BATCH	83	Oral Rehydration Salts (Batch 3)	130	2030-11-29	Oral Rehydration	sachet	0
+BATCH	84	Naproxen (Batch 3)	110	2026-11-10	Anti-inflammatory	250mg	0
 BATCH	85	Paracetamol (Batch 4)	128	2024-04-21	Pain Relievers	500mg	0
-BATCH	86	Ibuprofen (Batch 4)	125	2027-05-06	Pain Relievers	200mg	1
+BATCH	86	Ibuprofen (Batch 4)	125	2027-05-06	Pain Relievers	200mg	0
 BATCH	87	Mefenamic Acid (Batch 4)	139	2025-10-31	Pain Relievers	500mg	0
-BATCH	88	Amoxicillin (Batch 4)	241	2029-05-17	Antibiotics	500mg	1
-BATCH	89	Azithromycin (Batch 4)	206	2028-04-22	Antibiotics	500mg	1
-BATCH	90	Ciprofloxacin (Batch 4)	33	2030-05-10	Antibiotics	500mg	1
-BATCH	91	Omeprazole (Batch 4)	192	2028-08-16	Antacids	20mg	1
-BATCH	92	Aluminum Hydroxide (Batch 4)	187	2030-05-05	Antacids	tablet	1
-BATCH	93	Cetirizine (Batch 4)	185	2030-12-08	Antihistamines	10mg	1
-BATCH	94	Loratadine (Batch 4)	45	2027-08-30	Antihistamines	10mg	1
-BATCH	95	Diphenhydramine (Batch 4)	35	2029-05-24	Antihistamines	25mg	1
-BATCH	96	Vitamin C (Batch 4)	123	2027-01-04	Vitamins & Supplements	500mg	1
+BATCH	88	Amoxicillin (Batch 4)	241	2029-05-17	Antibiotics	500mg	0
+BATCH	89	Azithromycin (Batch 4)	206	2028-04-22	Antibiotics	500mg	0
+BATCH	90	Ciprofloxacin (Batch 4)	33	2030-05-10	Antibiotics	500mg	0
+BATCH	91	Omeprazole (Batch 4)	192	2028-08-16	Antacids	20mg	0
+BATCH	92	Aluminum Hydroxide (Batch 4)	187	2030-05-05	Antacids	tablet	0
+BATCH	93	Cetirizine (Batch 4)	185	2030-12-08	Antihistamines	10mg	0
+BATCH	94	Loratadine (Batch 4)	45	2027-08-30	Antihistamines	10mg	0
+BATCH	95	Diphenhydramine (Batch 4)	35	2029-05-24	Antihistamines	25mg	0
+BATCH	96	Vitamin C (Batch 4)	123	2027-01-04	Vitamins & Supplements	500mg	0
 BATCH	97	Multivitamins (Batch 4)	206	2026-10-17	Vitamins & Supplements	tablet	0
-BATCH	98	Ferrous Sulfate (Batch 4)	106	2027-02-25	Vitamins & Supplements	325mg	1
-BATCH	99	Metformin (Batch 4)	224	2028-01-18	Antidiabetics	500mg	1
-BATCH	100	Gliclazide (Batch 4)	240	2026-12-05	Antidiabetics	80mg	1
+BATCH	98	Ferrous Sulfate (Batch 4)	106	2027-02-25	Vitamins & Supplements	325mg	0
+BATCH	99	Metformin (Batch 4)	224	2028-01-18	Antidiabetics	500mg	0
+BATCH	100	Gliclazide (Batch 4)	240	2026-12-05	Antidiabetics	80mg	0
 BATCH	101	Amlodipine (Batch 4)	47	2024-05-16	Antihypertensives	5mg	0
-REQ	4
+REQ	2
+REQ	67

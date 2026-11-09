@@ -13,9 +13,7 @@ import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-
 import model.Batch;
-import panels.BatchPanel;
 
 // One card of the Manage cared style
 
@@ -82,6 +80,9 @@ public class BatchStyle extends JPanel implements MouseListener, ActionListener 
         }
         if (showRequest) {
             requestButton = new JButton("Request removal");
+
+
+            
             requestButton.setFont(new Font("Arial", Font.PLAIN, 14));
             requestButton.setPreferredSize(new Dimension(150, 36));
             requestButton.setMaximumSize(new Dimension(150, 36));
@@ -91,6 +92,11 @@ public class BatchStyle extends JPanel implements MouseListener, ActionListener 
             if (alreadyRequested) {
                 requestButton.setText("Requested");
                 requestButton.setEnabled(false);
+
+
+ 
+
+               
             }
             requestButton.addActionListener(this);
             rightPanel.add(requestButton);
@@ -131,6 +137,12 @@ public class BatchStyle extends JPanel implements MouseListener, ActionListener 
     // the request clicked
     public void actionPerformed(ActionEvent e) {
         panel.requestRemoval(batch);
+
+
+
+
+
+
     }
 
     // the card was clicked: select it

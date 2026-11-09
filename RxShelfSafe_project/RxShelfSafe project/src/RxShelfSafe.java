@@ -46,3 +46,12 @@ hightlight buttons, type shiii */
 
 //done
 
+/*new task
+requested by staff name and cancel request removal */
+
+
+/* 0 - 25%
+Basic ui, Bsic button functions, Log in frame, Manage batches panel, removal queue,  code backbone
+25% added expiry report, categories panel, basic buttons functions and logic
+50% refined the seperate panel button functions, refined the UI, 
+70% refined the ui even more added more button functions and window recolored the the UI*/

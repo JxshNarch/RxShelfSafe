@@ -187,8 +187,18 @@ public class RemovalPanel extends JPanel implements ActionListener, MouseListene
             statusCell.add(square);
         }
 
+
+
+
+        
                        JLabel byLabel = new JLabel("Staff", JLabel.CENTER);
         byLabel.setFont(new Font("Arial", Font.PLAIN, 16));
+
+
+
+
+
+
 
         JPanel bar = new JPanel(new GridLayout(1, 4));
         bar.add(nameLabel);
